@@ -13,7 +13,7 @@ export const categories = pgTable("categories", {
   slug: text("slug").notNull().unique(),
   name: text("name").notNull(),
   description: text("description").notNull().default(""),
-  image: text("image").notNull().default("/images/products/painting-kit.jpg"),
+  image: text("image").notNull().default("/images/products/painting-kit.svg"),
   sortOrder: integer("sort_order").notNull().default(0),
   active: boolean("active").notNull().default(true),
 });
