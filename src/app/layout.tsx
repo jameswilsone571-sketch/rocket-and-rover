@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_AU",
     siteName: "Rocket & Rover",
-    images: [{ url: "/images/hero.png", width: 1200, height: 800, alt: "Rocket & Rover" }],
+    images: [{ url: "/images/hero.svg", width: 1200, height: 800, alt: "Rocket & Rover" }],
   },
   robots: { index: true, follow: true },
   icons: { icon: "/favicon.svg" },
