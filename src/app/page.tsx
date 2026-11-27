@@ -21,25 +21,25 @@ const EXPERIENCES = [
     title: "Create & Paint",
     copy: "Plaster painting, mess-free colours and creative fun.",
     href: "/shop/arts-painting",
-    image: "/images/products/crayons.jpg",
+    image: "/images/products/crayons.svg",
   },
   {
     title: "Build & Discover",
     copy: "Kits that turn little hands into little engineers.",
     href: "/shop/make-your-own",
-    image: "/images/products/rocket-kit.jpg",
+    image: "/images/products/rocket-kit.svg",
   },
   {
     title: "Play & Imagine",
     copy: "Creative play that sparks big, wobbly ideas.",
     href: "/shop/playdoh-creative-play",
-    image: "/images/products/cutter-set.jpg",
+    image: "/images/products/cutter-set.svg",
   },
   {
     title: "Explore the Universe",
     copy: "Glowing, floating, orbiting fun for every explorer.",
     href: "/shop/space-toys",
-    image: "/images/products/ceiling-stickers.jpg",
+    image: "/images/products/ceiling-stickers.svg",
   },
 ];
 
@@ -71,12 +71,12 @@ const BENEFITS = [
 ];
 
 const SOCIAL_IMAGES = [
-  "/images/products/painting-kit.jpg",
-  "/images/products/cutter-set.jpg",
-  "/images/products/glow-puzzle.jpg",
-  "/images/products/crayons.jpg",
-  "/images/products/ceiling-stickers.jpg",
-  "/images/products/rocket-kit.jpg",
+  "/images/products/painting-kit.svg",
+  "/images/products/cutter-set.svg",
+  "/images/products/glow-puzzle.svg",
+  "/images/products/crayons.svg",
+  "/images/products/ceiling-stickers.svg",
+  "/images/products/rocket-kit.svg",
 ];
 
 export default async function HomePage() {
@@ -136,7 +136,7 @@ export default async function HomePage() {
           <FadeIn delay={150} className="relative">
             <div className="relative mx-auto max-w-lg">
               <img
-                src="/images/hero.png"
+                src="/images/hero.svg"
                 alt="Illustration of a friendly rocket and little astronaut floating among planets, stars and creative toys"
                 className="w-full rounded-[2.5rem] shadow-lift"
                 sizes="(max-width: 1024px) 100vw, 45vw"
@@ -226,7 +226,7 @@ export default async function HomePage() {
         <div className="grid items-center gap-10 lg:grid-cols-2">
           <FadeIn className="relative order-2 lg:order-1">
             <img
-              src="/images/about.png"
+              src="/images/about.svg"
               alt="Two children happily painting plaster space figurines under a starry sky"
               loading="lazy"
               className="w-full rounded-[2.5rem] shadow-lift"
@@ -281,7 +281,7 @@ export default async function HomePage() {
               </div>
               <div className="relative mx-auto hidden w-full max-w-xs lg:block">
                 <img
-                  src="/images/products/painting-kit.jpg"
+                  src="/images/products/painting-kit.svg"
                   alt="Space adventure plaster painting kit with paints"
                   loading="lazy"
                   className="animate-wiggle rounded-3xl shadow-lift"
