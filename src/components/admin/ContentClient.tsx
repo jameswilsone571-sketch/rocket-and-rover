@@ -252,7 +252,7 @@ function AddCategory({ nextOrder }: { nextOrder: number }) {
     name: "",
     slug: "",
     description: "",
-    image: "/images/products/painting-kit.jpg",
+    image: "/images/products/painting-kit.svg",
     sortOrder: nextOrder,
     active: true,
   });
