@@ -78,7 +78,7 @@ export async function saveProduct(
     if (!name) return { ok: false, error: "Product name is required." };
     if (!(input.priceCents > 0)) return { ok: false, error: "Please set a valid price." };
     if (!input.categoryId) return { ok: false, error: "Please choose a category." };
-    const images = input.images.length ? input.images : ["/images/products/painting-kit.jpg"];
+    const images = input.images.length ? input.images : ["/images/products/painting-kit.svg"];
     const values = {
       name,
       categoryId: input.categoryId,
@@ -189,7 +189,7 @@ export async function saveCategory(
         name: input.name,
         slug,
         description: input.description,
-        image: input.image || "/images/products/painting-kit.jpg",
+        image: input.image || "/images/products/painting-kit.svg",
         sortOrder: input.sortOrder,
         active: input.active,
       });
