@@ -25,7 +25,7 @@ export function ProductCard({
   const onSale =
     product.compareAtPriceCents != null && product.compareAtPriceCents > product.priceCents;
   const wished = hydrated && isWished(product.id);
-  const image = product.images?.[0] ?? "/images/products/painting-kit.jpg";
+  const image = product.images?.[0] ?? "/images/products/painting-kit.svg";
 
   return (
     <article className="group flex flex-col overflow-hidden rounded-3xl bg-white shadow-soft transition-all duration-300 hover:-translate-y-1.5 hover:shadow-lift">
