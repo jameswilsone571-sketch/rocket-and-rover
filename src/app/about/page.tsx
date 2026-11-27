@@ -60,7 +60,7 @@ export default function AboutPage() {
           </FadeIn>
           <FadeIn delay={150}>
             <img
-              src="/images/hero.png"
+              src="/images/hero.svg"
               alt="Friendly rocket and astronaut floating through a colourful starfield"
               className="mx-auto w-full max-w-md rounded-[2.5rem] shadow-lift"
             />
@@ -72,7 +72,7 @@ export default function AboutPage() {
         <div className="grid items-center gap-10 lg:grid-cols-2">
           <FadeIn>
             <img
-              src="/images/about.png"
+              src="/images/about.svg"
               alt="Children painting plaster space figurines at a craft table"
               loading="lazy"
               className="w-full rounded-[2.5rem] shadow-lift"
