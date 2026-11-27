@@ -51,7 +51,7 @@ function QuickViewModal({
 }) {
   const { addItem } = useCart();
   const inStock = product.available && product.stockQty > 0;
-  const image = product.images?.[0] ?? "/images/products/painting-kit.jpg";
+  const image = product.images?.[0] ?? "/images/products/painting-kit.svg";
   const onSale =
     product.compareAtPriceCents != null && product.compareAtPriceCents > product.priceCents;
 
