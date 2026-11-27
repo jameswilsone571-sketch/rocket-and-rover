@@ -37,7 +37,7 @@ export default async function ProductPage({
   if (!product) notFound();
 
   const related = await getRelatedProducts(product.id, product.categoryId, 4);
-  const image = product.images?.[0] ?? "/images/products/painting-kit.jpg";
+  const image = product.images?.[0] ?? "/images/products/painting-kit.svg";
 
   const jsonLd = {
     "@context": "https://schema.org",
