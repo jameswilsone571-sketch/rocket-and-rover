@@ -16,7 +16,7 @@ import {
 } from "@/components/Icons";
 
 export function PdpClient({ product }: { product: ProductWithCategory }) {
-  const images = (product.images && product.images.length ? product.images : ["/images/products/painting-kit.jpg"]) as string[];
+  const images = (product.images && product.images.length ? product.images : ["/images/products/painting-kit.svg"]) as string[];
   const [active, setActive] = useState(0);
   const [qty, setQty] = useState(1);
   const [lightbox, setLightbox] = useState(false);
